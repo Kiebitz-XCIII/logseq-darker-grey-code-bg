@@ -1,0 +1,30 @@
+.dark-theme {
+/* code */
+  code {
+    color: hsl(0,0%,70%) !important;
+    background-color: hsl(0,0%,10%) !important;
+  }
+  
+  .CodeMirror-gutters {
+    background-color: hsl(0,0%,11%) !important;
+  }
+  
+  .CodeMirror-linenumber {
+    color: hsl(0,0%,30%) !important;
+  }
+  
+  .CodeMirror {
+    color: hsl(0,0%,60%) !important;
+    background-color: hsl(0,0%,7%) !important;
+  }
+
+/* tables */
+  .table-auto thead th {
+    background-color: hsl(0,0%,8%) !important;
+  }
+  
+  .table-auto tbody tr:nth-child(even) {
+    background-color: hsl(0,0%,11%) !important;
+  }
+  
+}
